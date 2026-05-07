@@ -1,5 +1,5 @@
 # OpenMensa
-A platform sensor which tells you which meals are served in your canteen.
+A (*updated*) platform sensor which tells you which meals are served in your canteen.
 
 ## Example configuration.yaml
 ```yaml
