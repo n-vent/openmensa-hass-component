@@ -12,3 +12,4 @@ The configuration key ```code``` is required. This code represents the id of you
 You can determine that key via the OpenMensa Website. If the Homepage of your Mensa is
 e.g. [https://openmensa.org/c/828](https://openmensa.org/c/828), then your code is ```828```.
 
+The configuration key ```region``` is required to take regional German holidays into account when determining the next working day. 
