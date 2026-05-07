@@ -4,7 +4,8 @@
     "version": "1.0.0",
     "documentation": "https://www.home-assistant.io/components/openmensa",
     "requirements": [
-      "openmensa-api==1.1"
+      "openmensa-api==1.1",
+      "holidays==0.96"
     ],
     "dependencies": [],
     "codeowners": []

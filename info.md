@@ -6,6 +6,7 @@ A platform sensor which tells you which meals are served in your canteen.
 sensor:
     - platform: openmensa
       code: 828
+      fedstate: "BY"
 ```
 The configuration key ```code``` is required. This code represents the id of your Mensa.
 You can determine that key via the OpenMensa Website. If the Homepage of your Mensa is
