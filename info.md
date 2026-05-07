@@ -39,17 +39,12 @@ category available.
 
 Use the Template engine to look at your mensa's meal categories with:
 ```
-{{states.sensor.openmensa_sensor.attributes}}
-```
+{{states.sensor.openmensa_sensor.attributes.meals.today[0].meals[0].name}}
+{{states.sensor.openmensa_sensor.attributes.meals.today[1].meals[0].name}}
 
-To get the name of the first meal category, use the following template
-```
-{{states.sensor.openmensa_sensor.attributes.categories[0].name}}
-```
+{{states.sensor.openmensa_sensor.attributes.meals.next_workday[0].meals[0].name}}
+{{states.sensor.openmensa_sensor.attributes.meals.next_workday[1].meals[0].name}}
 
-To get e.g. the "Komplett Menü", use the following template:
-```
-{{states.sensor.openmensa_sensor.attributes.categories[0].meals[0].name}}
 ```
 
 The state of the sensor is set to ```no_meals``` if openmensa does not provide any information for the current day.
