@@ -13,3 +13,22 @@ You can determine that key via the OpenMensa Website. If the Homepage of your Me
 e.g. [https://openmensa.org/c/828](https://openmensa.org/c/828), then your code is ```828```.
 
 The configuration key ```region``` is required to take regional German holidays into account when determining the next working day. 
+
+Valid options for ```region``` (German Federal States):
+
+- **BW** — Baden-Württemberg
+- **BY** — Bayern
+- **BE** — Berlin
+- **BB** — Brandenburg
+- **HB** — Bremen
+- **HH** — Hamburg
+- **HE** — Hessen
+- **MV** — Mecklenburg-Vorpommern
+- **NI** — Niedersachsen
+- **NW** — Nordrhein-Westfalen
+- **RP** — Rheinland-Pfalz
+- **SL** — Saarland
+- **SN** — Sachsen
+- **ST** — Sachsen-Anhalt
+- **SH** — Schleswig-Holstein
+- **TH** — Thüringen
